@@ -78,4 +78,4 @@ markdown: kramdown
 highlighter: pygments
 paginate: 5
 
-gems: [jekyll_inline_highlight]
+gems: [jekyll-paginate]
