@@ -1,0 +1,81 @@
+### Site info:
+name: 'Zlbruce&#039;s Blog'
+title: 'Zlbruce&#039;s Blog'
+tagline: This is who I am.
+author: zlbruce
+email: me@zlb.me
+description: "This is who I am" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+keywords: "zlbruce, blog"
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://zlbruce.github.io" # the base hostname & protocol for your site
+locale: en_US
+
+paginator: 5
+paginate_path: "/page/:num/"
+
+### Personal info and site tools info:
+twitter_username: zlbruce
+github_username:  zlbruce
+#disqus_shortname: freshman21
+favicon:     "/images/favicon.ico"
+aboutme: Hi, this is zlbruce. # these are shown on aboutme-sidebar.
+aboutme_photo: '/images/zlbruce.jpeg'  # your photo.
+
+
+### Site setting:
+ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True
+default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
+default_locale: "cn" # blog sidebar language set, only include: English(en) and Chinese (cn)
+
+locales:
+    en:
+      Aboutme: "About Me"
+      Archives: "Archives"
+      Blogroll: "Blogroll"
+      Categories: "Categories"
+      Copyright_Notice: "Copyright Notice"
+      Recent_Posts: "Recent Posts"
+      Tags: "Tags"
+      Previous: "Older"
+      Next: "Newer"
+      PostedInCategories: "Posted in"
+      Taggedwith: "and tagged"  
+      PostDate: "on "
+    cn:
+      Aboutme: "关于我"
+      Archives: "存档"
+      Blogroll: "良师益友"        
+      Categories: "分类目录"    
+      Copyright_Notice: "版权声明"
+      Recent_Posts: "近期文章"
+      Tags: "标签" 
+      Previous: "前一页"
+      Next: "后一页"
+      PostedInCategories: "目录:"   
+      Taggedwith: "| 标签:"
+      PostDate: "| 发表时间: "
+
+
+### your Blogroll info, only name can shown on the page.
+
+Blogroll:
+    - name: "地理时间"
+      href: http://www.comgeo.net/
+      title: "美图看世界"
+    - name: "阳光烂灿的日子"
+      href: http://lerosua.github.io/
+      title: "阳光烂灿的日子"
+    - name: "卢昌海个人主页"
+      href: http://changhai.org/
+      title: "科普"
+    - name: "digitalocean"
+      href: https://www.digitalocean.com/?refcode=d667079e7273
+      title: ""
+
+
+### Build settings
+markdown: kramdown
+highlighter: pygments
+paginate: 5
+
+gems: [jekyll_inline_highlight]
