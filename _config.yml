@@ -59,9 +59,6 @@ locales:
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
-    - name: "地理时间"
-      href: http://www.comgeo.net/
-      title: "美图看世界"
     - name: "阳光烂灿的日子"
       href: http://lerosua.github.io/
       title: "阳光烂灿的日子"
