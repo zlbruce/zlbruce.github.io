@@ -7,7 +7,7 @@ email: me@zlb.me
 description: "This is who I am" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "zlbruce, blog"
 #baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://izl.xyz" # the base hostname & protocol for your site
+url: "https://izl.xyz" # the base hostname & protocol for your site
 locale: en_US
 
 paginator: 5
