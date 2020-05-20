@@ -83,7 +83,7 @@ ALPN 的全称为 Application Layer Protocol Negotiation，做为 NPN 的替代�
   * [draft-alpn][3]
   * [NPN and ALPN][4]
 
- [1]: https://zlb.me/2013/01/07/spdy-intro/ "SPDY 简介"
+ [1]: {{ site.url }}/2013/01/07/spdy-intro/ "SPDY 简介"
  [2]: http://tools.ietf.org/html/draft-agl-tls-nextprotoneg-04 "Transport Layer Security (TLS) Next Protocol Negotiation Extension"
  [3]: http://tools.ietf.org/html/draft-ietf-tls-applayerprotoneg-01 "Transport Layer Security (TLS) Application Layer Protocol Negotiation Extension"
  [4]: https://www.imperialviolet.org/2013/03/20/alpn.html "NPN and ALPN"

@@ -39,7 +39,7 @@ tags:
 
 不过至少在成为标准之前，SPDY 还没有自己的独有端口，那如何使用该协议呢？Google 提出了在 HTTPS 之上使用 SPDY，只需要增加一个 SSL 的扩展协议 [NPN][5]，在 SSL 协商的同时协商出上层使用的协议，这样在 SSL 握手完成后，客户端与服务器就知道上层的应用是 SPDY 还是普通 HTTP，从而使用相应的协议进行处理。这样做的好处就是对用户透明，不需要显示使用类似 spdy:// 这样的前缀去指定使用 SPDY 协议，现有的网页也不需要修改，只需要对浏览器和服务端进行升级即可。
 
- [1]: https://zlb.me/2012/08/03/spdy-on-apache2/ "blog启用spdy"
+ [1]: {{ site.url }}/2012/08/03/spdy-on-apache2/ "blog启用spdy"
  [2]: http://en.wikipedia.org/wiki/HTTP_pipelining "HTTP pipelining"
  [3]: http://www.chromium.org/spdy/spdy-protocol "spdy protocol"
  [4]: http://www.infoq.com/news/2012/11/http20-first-draft "http 2.0 first draft"
