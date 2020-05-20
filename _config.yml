@@ -9,6 +9,7 @@ keywords: "zlbruce, blog"
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://izl.xyz" # the base hostname & protocol for your site
 locale: en_US
+premalink: pretty
 
 paginator: 5
 paginate_path: "/page/:num/"
