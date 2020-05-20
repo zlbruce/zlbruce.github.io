@@ -16,5 +16,5 @@ tags:
 
 看星星月亮的时候太兴奋了，以至于在外面只穿了一件很薄的毛衣都没觉得冷，希望不会感冒吧:)
 
- [1]: https://zlb.me/2008/06/03/one-two-three-infinity/ "从一到无穷大"
+ [1]: {% post_url 2008-06-03-one-two-three-infinity %} "从一到无穷大"
  [2]: http://www.stellarium.org/

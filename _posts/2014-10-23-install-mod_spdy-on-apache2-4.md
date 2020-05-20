@@ -64,4 +64,4 @@ PS：之前研究 IE11 的时候发现他用的 [ALPN 而不是 NPN][3]，花了
 
  [1]: https://developers.google.com/speed/spdy/mod_spdy/ "mod_spdy"
  [2]: https://github.com/eousphoros/mod-spdy "eousphoros/mod-spdy"
- [3]: {{ site.url }}/2013/07/19/npn-and-alpn/ "NPN 与 ALPN"
+ [3]: {% post_url 2013-07-19-npn-and-alpn %} "NPN 与 ALPN"

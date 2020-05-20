@@ -37,4 +37,4 @@ Chrome用户可以打开[chrome://net-internals/#spdy](chrome://net-internals/#s
  [4]: https://developers.google.com/speed/spdy/mod_spdy/php "Using mod_spdy with PHP"
  [5]: https://zlb.me/ "https://zlb.me/"
  [6]: https://addons.mozilla.org/en-US/firefox/addon/spdy-indicator/ "SPDY indicator"
- [7]: https://zlb.me/2014/10/23/install-mod_spdy-on-apache2-4/ "在 Apache 2.4 中使用 mod_spdy"
+ [7]: {% post_url 2014-10-23-install-mod_spdy-on-apache2-4 %} "在 Apache 2.4 中使用 mod_spdy"

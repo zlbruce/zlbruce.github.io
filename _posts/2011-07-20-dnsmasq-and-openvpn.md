@@ -128,6 +128,6 @@ twitter.com.		19	IN	A	199.59.148.10
 
 可以看到使用 8.8.8.8 时解析到了网通的地址，而使用 127.0.0.1 后，则可以正确的解析为电信的地址。同时解析 twitter.com 也能正确的返回结果。
 
- [1]: https://zlb.me/2011/07/08/vps-openvpn/ "使用 vps 搭建 openvpn"
+ [1]: {% post_url 2011-07-08-vps-openvpn %} "使用 vps 搭建 openvpn"
  [2]: http://thekelleys.org.uk/dnsmasq/doc.html "dnsmasq"
  [3]: http://www.opendns.com/ "opendns"
