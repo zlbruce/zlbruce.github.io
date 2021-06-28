@@ -3,7 +3,7 @@ name: 'Zlbruce&#039;s Blog'
 title: 'Zlbruce&#039;s Blog'
 tagline: This is who I am.
 author: zlbruce
-email: me@zlb.me
+email: admin@izl.xyz
 description: "This is who I am" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "zlbruce, blog"
 #baseurl: "" # the subpath of your site, e.g. /blog
@@ -18,7 +18,7 @@ paginate_path: "/page/:num/"
 twitter_username: zlbruce
 github_username:  zlbruce
 #disqus_shortname: freshman21
-favicon:     "/images/favicon.ico"
+favicon:     "/images/zlbruce.jpeg"
 aboutme: Hi, this is zlbruce. # these are shown on aboutme-sidebar.
 aboutme_photo: '/images/zlbruce.jpeg'  # your photo.
 
