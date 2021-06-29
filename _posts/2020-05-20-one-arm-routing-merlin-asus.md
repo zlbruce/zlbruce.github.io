@@ -12,7 +12,7 @@ tags:
 ## 背景
 在规划家里网络的时候，打算将路由器放到客厅，因为这个位置比较居中，能够比较好的将wifi覆盖到各个方向，而我的弱电箱在入户走廊，因此一般的方式就是，从光猫（入户走廊）出来的网线接到路由器（客厅）的 wan 口上，然后路由器 lan 口出来的网线接回交换机（入户走廊）上，再由交换机接到其他房间。因此弱电箱和客厅应该有两根网线，预想如图：
 
-![plan]({{ site.url }}/images/2020-05/home-networking-plan.png)
+{% include picture.html img='/images/2020-05/home-networking-plan' alt='home networking plan' %}
 
 结果预留网线的时候弱电箱到客厅的网线只预埋了一根，于是上述的预想就泡汤了，那么接下来有大概以下几种方案：
 * 重新开槽，很显然不太现实；
@@ -26,12 +26,12 @@ vlan trunk 就是在发送数据包的时候在包中带上 vlan tag，标明该
 
 从以上描述可以看出，除了路由器需要支持 vlan trunk 之外，与他相连的设备也需要支持 vlan trunk，所以需要选购一台支持的交换机，我这里使用的是 CISCO SG250-08 交换机，具体的网络图如下：
 
-![vlan]({{ site.url }}/images/2020-05/home-networking.png)
+{% include picture.html img='/images/2020-05/home-networking' alt='home networking vlan' %}
 
 ## RT-AC88U 的设置
 基本的想法确定之后，接下来就看看如何配置。首先，我的路由器型号为 RT-AC88U，我们先看看路由器的架构：
 
-![asus]({{ site.url }}/images/2020-05/asus.png)
+{% include picture.html img='/images/2020-05/asus' alt='asus' %}
 
 可以简单的认为整个路由器由两部分组成，switch 和 linux 系统，路由器对外的网口都是插到的这个 switch，switch 上 8 号网口与 linux 系统的 eth0 网口相连，在路由器上使用`robocfg show`命令查看：
 {% highlight bash %}
@@ -71,7 +71,7 @@ robocfg vlan 1 ports "0 1 2 3 4t 5 7 8t"
 
 同样的，trunk 口的配置也按照 vlan1 带 tag，vlan2 不带 tag 的方式进行配置即可，如图所示：
 
-![switch]({{ site.url }}/images/2020-05/home-networking-switch.png)
+{% include picture.html img='/images/2020-05/home-networking-switch' alt='home networking switch' %}
 
 ## 总结
 至此，整个的配置就完全结束了。我们简单做下分析：
