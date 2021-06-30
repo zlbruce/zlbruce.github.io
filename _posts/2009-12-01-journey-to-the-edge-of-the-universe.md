@@ -8,7 +8,7 @@ categories:
 tags:
   - 影评
 ---
-![旅行到宇宙边缘]({{ site.url }}/images/2009-12/journey-to-the-edge-of-the-universe.jpg)
+{% include picture.html img='/images/2009-12/journey-to-the-edge-of-the-universe.jpg' alt='旅行到宇宙边缘' %}
 
 这是一部科教片，内容浅显易懂，实际上根本就没有什么理论方面的讲解，只是介绍性的介绍了我们所认知的宇宙。不过由哈勃望远镜拍摄的照片加上电脑特效制作出逼真的 3D 画面，再配合著恰到好处的音乐，使人在观看的同时给人带来无限的遐想。
 

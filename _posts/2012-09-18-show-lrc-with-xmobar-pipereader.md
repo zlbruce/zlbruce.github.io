@@ -107,7 +107,7 @@ tags:
 
 最后看一下最终的效果，歌词在右上角时间的左边： 
 
-![使用 xmobar 的 PipeReader 显示歌词]({{ site.url }}/images/2012-09/show-lrc-with-xmobar-pipereader.png) 
+{% include picture.html img='/images/2020-09/show-lrc-with-xmobar-pipereader.png' alt='使用 xmobar 的 PipeReader 显示歌词' %}
 
 
  [1]: http://xmonad.org/ "xmonad"

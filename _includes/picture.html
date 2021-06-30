@@ -1,5 +1,11 @@
 <picture>
     <source type="image/webp" srcset="{{ include.img }}.webp" >
-    <source type="image/png" srcset="{{ include.img }}.png" >
-    <img src="{{ include.img }}.png" alt="{{ include.alt }}" />
+    {% assign check = include.img | split:'.' | last -%}
+    {% case check -%}
+        {% when "png" -%}
+        <source type="image/png" srcset="{{ include.img }}" >
+        {% when "jpg", "jpeg" -%}
+        <source type="image/jpeg" srcset="{{ include.img }}" >
+    {% endcase -%}
+    <img src="{{ include.img }}" alt="{{ include.alt }}" />
 </picture>

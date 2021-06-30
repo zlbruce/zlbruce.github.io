@@ -57,11 +57,11 @@ tags:
 
 其实我的文档很少使用数学公式，需要在一行描述性的文字中写上数学公式，直接使用 `$\sum_{j = i}^nX_j$`  出来的效果如下：  
 
-![sum]({{ site.url }}/images/2007-06/latex-note-1.jpg)
+{% include picture.html img='/images/2007-06/latex-note-1.jpg' alt='sum' %}
 
 如果想使用和 `\[\sum_{j = i}^nX_j\]`  一样的效果可以使用 `$\displaystyle\sum_{j = i}^nX_j$` ，效果如图：  
 
-![sum]({{ site.url }}/images/2007-06/latex-note-2.jpg)
+{% include picture.html img='/images/2007-06/latex-note-2.jpg' alt='sum' %}
 
 ### 关于 VIM-LaTeX
 
