@@ -258,7 +258,7 @@
 .pager{
   margin-bottom: 60px;
   text-align: center;
-  ul { display: block; margin: 20px 0; }
+  ul { display: block; margin: 20px 0; overflow: hidden; }
   li{list-style: none;}
   li.previous a{float:left;}
   li.next a{float:right;}
